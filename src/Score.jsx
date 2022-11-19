@@ -3,8 +3,8 @@ function Score ({scores}) {
         return (
             <>
             <h3>Scores</h3>
-        <p key={`${score.date}-${i}`}>Date: {score.date}</p>
-        <p key={`${score.score}-${i}`}> Score: {score.score}</p>
+        <p key={`${score.date}-${i}`}>Dates: {score.date}</p>
+        <p key={`${score.score}-${i}`}> Scores: {score.score}</p>
         </>
         )
     }) 
